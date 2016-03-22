@@ -16,3 +16,25 @@
     size:8.5in 11in portrait;
     margin: 0.5in;
 }
+
+header, section#left, section#right, nav, aside, footer, article p:last-of-type{
+    display: none;
+}
+h1{
+    font-size: 200%;
+    margin-bottom: 0.2in;
+}
+h2{
+    font-size: 150%;
+    margin-top: 0.5in;
+}
+ul li{
+    line-height: 1.5em;
+}
+ol li{
+    margin-left: 0.5in;
+    list-style: decimal;
+}
+ #center h2:last-child{
+    page-break-before:always;
+}
