@@ -24,6 +24,10 @@ article{
     box-shadow: inset rgb(171,171,171) 15px 15px 75px, rgb(101,101,101) 5px 5px 5px;
 }
 blockquote{
-    background: linear-gradient(rgb(166,230,230), rgb(231,231,231) 5%, rgb(255,255,255) 15%);
+    background: linear-gradient(to right, rgb(166,230,230), rgb(231,231,231) 5%, rgb(255,255,255) 15%);
               /*linear-gradient(rgba(166,230,230), rgba(130,251,231), rgba(255,255,255) );*/
+    background: -o-linear-gradient(right, rgb(166,230,230), rgb(231,231,231) 5%, rgb(255,255,255) 15%);
+    background: -ms-linear-gradient(right, rgb(166,230,230), rgb(231,231,231) 5%, rgb(255,255,255) 15%);
+    background: -webkit-linear-gradient(left, rgb(166,230,230), rgb(231,231,231) 5%, rgb(255,255,255) 15%);
+    background: -moz-linear-gradient(right, rgb(166,230,230), rgb(231,231,231) 5%, rgb(255,255,255) 15%);
 }
